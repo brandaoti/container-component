@@ -33,7 +33,7 @@ class ChallengePage extends StatelessWidget {
 
             // !
             Spacer(),
-            CustomContainer(
+            Container(
               height: 120,
               color: AppColors.blue,
               child: Row(
