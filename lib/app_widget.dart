@@ -1,3 +1,4 @@
+import 'package:desafio001/src/pages/challenge_page.dart';
 import 'package:flutter/material.dart';
 
 class AppWidget extends StatelessWidget {
@@ -6,7 +7,7 @@ class AppWidget extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(),
-      home: HomePage(),
+      home: ChallengePage(),
     );
   }
 }
