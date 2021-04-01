@@ -1,3 +1,4 @@
+import 'package:desafio001/src/shared/components/custom_container.dart';
 import 'package:flutter/material.dart';
 
 class ChallengePage extends StatelessWidget {
@@ -23,47 +24,34 @@ class ChallengePage extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Container(
-                    // width: 300,
-                    height: 80,
-                    color: Colors.white,
-                  ),
-                  Container(
-                    // width: 300,
-                    height: 80,
-                    color: Colors.white,
-                  ),
-                  Container(
-                    // width: 300,
-                    height: 80,
-                    color: Colors.white,
-                  ),
+                  CustomContainer(),
+                  CustomContainer(),
+                  CustomContainer(),
                 ],
               ),
             ),
 
             // !
             Spacer(),
-            Container(
-              width: double.infinity,
+            CustomContainer(
               height: 120,
               color: Colors.blue,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Container(
-                    width: 50,
+                  CustomContainer(
                     height: 50,
+                    width: 50,
                     color: Colors.green,
                   ),
-                  Container(
-                    width: 50,
+                  CustomContainer(
                     height: 50,
+                    width: 50,
                     color: Colors.yellow,
                   ),
-                  Container(
-                    width: 50,
+                  CustomContainer(
                     height: 50,
+                    width: 50,
                     color: Colors.red,
                   ),
                 ],
