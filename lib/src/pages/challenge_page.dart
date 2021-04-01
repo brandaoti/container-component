@@ -1,4 +1,5 @@
 import 'package:desafio001/src/shared/components/custom_container.dart';
+import 'package:desafio001/src/shared/core/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class ChallengePage extends StatelessWidget {
@@ -15,7 +16,6 @@ class ChallengePage extends StatelessWidget {
 
       // ?
       body: Container(
-        color: Colors.black,
         child: Column(
           children: [
             Container(
@@ -35,24 +35,24 @@ class ChallengePage extends StatelessWidget {
             Spacer(),
             CustomContainer(
               height: 120,
-              color: Colors.blue,
+              color: AppColors.blue,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   CustomContainer(
                     height: 50,
                     width: 50,
-                    color: Colors.green,
+                    color: AppColors.green,
                   ),
                   CustomContainer(
                     height: 50,
                     width: 50,
-                    color: Colors.yellow,
+                    color: AppColors.yellow,
                   ),
                   CustomContainer(
                     height: 50,
                     width: 50,
-                    color: Colors.red,
+                    color: AppColors.red,
                   ),
                 ],
               ),
