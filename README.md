@@ -8,7 +8,7 @@
 [//]: # (Adicione seus gifs / imagens aqui:)
 
 <p align="center"> 
-  <img src="screenshots/desafio.png" alt="demo" height="600"> 
+  <img src="screenshots/d.png" alt="demo" height="600"> 
 </p>
 
 <hr />
